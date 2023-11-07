@@ -1,0 +1,33 @@
+.nroTasa, .nroDias{
+  width: 150px;
+}
+.btnClean{
+  margin-left: 10px;
+}
+html{
+  background-image: url("https://tkambio.com/wp-content/uploads/2022/10/tasa-de-interes.png");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.registroTasa{
+  display: flex;
+  justify-content: center;
+}
+.title{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnRegister,
+.btnClean {
+  margin-top: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
